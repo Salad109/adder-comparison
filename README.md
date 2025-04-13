@@ -31,13 +31,13 @@ ghdl -a half_adder.vhd
 ghdl -a full_carry_operator.vhd
 ghdl -a koggestone_ppa.vhd
 ghdl -a rca.vhd
-ghdl -a adders_comparison_tb.vhd
+ghdl -a comparison_tb.vhd
 
 # Elaborate test bench
 ghdl -e adders_comparison_tb
 
 # Run simulation
-ghdl -r adders_comparison_tb --wave=wave.vcd
+ghdl -r adders_comparison_tb --vcd=wave.vcd
 ```
 
 ## Viewing Results
