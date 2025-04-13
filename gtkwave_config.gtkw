@@ -1,0 +1,41 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Thu Apr 10 09:40:41 2025
+[*]
+[dumpfile] "/home/mat/.teroshdl/build/wave.vcd"
+[dumpfile_mtime] "Thu Apr 10 09:37:20 2025"
+[dumpfile_size] 208717
+[savefile] "/home/mat/Desktop/adder_comparison/gtkwave_config.gtkw"
+[timestart] 0
+[size] 1920 1113
+[pos] -51 -51
+*-26.705902 850000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] adders_comparison_tb.
+[sst_width] 239
+[signals_width] 102
+[sst_expanded] 1
+[sst_vpaned_height] 337
+@200
+-
+-Inputs:
+@22
+adders_comparison_tb.ks_ppa.a[63:0]
+adders_comparison_tb.ks_ppa.b[63:0]
+@28
+adders_comparison_tb.ks_ppa.c_in
+@200
+-
+-PPA:
+@22
+adders_comparison_tb.ks_ppa.sum[63:0]
+@28
+adders_comparison_tb.ks_ppa.c_out
+@200
+-
+-RCA:
+@22
+adders_comparison_tb.rca_inst.sum[63:0]
+@28
+adders_comparison_tb.rca_inst.c_out
+[pattern_trace] 1
+[pattern_trace] 0
