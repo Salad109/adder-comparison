@@ -49,3 +49,27 @@ gtkwave wave.vcd gtkwave_config.gtkw
 ```
 
 This displays input vectors and output results for both adder designs, allowing for comparison of performance characteristics and verification of correct operation.
+
+## Hardware Synthesis
+
+The project includes a Makefile for synthesizing designs using Yosys+GHDL:
+
+```bash
+# Synthesize default design (Kogge-Stone PPA)
+make
+
+# Clean generated files
+make clean
+```
+
+The Makefile targets:
+- Generate a JSON netlist in `synthesis/$(TOP_ENTITY).json`
+- Create an SVG visualization in `synthesis/$(TOP_ENTITY).svg`
+
+To synthesize a different module, modify the Makefile variables:
+```
+SRCS := rca.vhd
+TOP_ENTITY := rca
+```
+
+Requirements: Yosys with GHDL plugin and netlistsvg.
