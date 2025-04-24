@@ -28,11 +28,6 @@ The recommended way to run this project is with [OSS CAD Suite](https://github.c
 - netlistsvg (visualization)
 - GTKWave (waveform viewer)
 
-After installing OSS CAD Suite, ensure it's in your PATH:
-```bash
-export PATH="/path/to/oss-cad-suite/bin:$PATH"
-```
-
 ## Simulation
 
 ```bash
